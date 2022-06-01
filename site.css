@@ -15,9 +15,16 @@ body {
     margin:20px auto 0 auto;
 }
 
-h1, h2, h3 {
+h1  {
     font-family: 'Libre Franklin', roboto, noto, segoe ui, sans-serif;
-    font-weight:700;
+    font-weight:800;
+    font-size: 3em; 
+    color:#000;
+}
+
+h2, h3 {
+    font-family: 'Libre Franklin', roboto, noto, segoe ui, sans-serif;
+    font-weight:800;
     color:#000;
 }
 
@@ -32,12 +39,6 @@ a:hover {
 
 .footer {
     background:#eee;
-}
-
-.languages {
-    position:absolute;
-    top:10px;
-    right:10px;
 }
 
 blockquote {
